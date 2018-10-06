@@ -1,0 +1,27 @@
+.article{
+    position:relative;
+}
+.btn_checkNo,.btn_checkOk{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    position:absolute;
+    float:bottom;
+    cursor: pointer;
+}
+.btn_checkOk{
+    background: green;
+    margin-right: 5px;
+    right:120px;
+    bottom:10px;
+}
+.btn_checkNo{
+    background: red;
+    right:10px;
+    bottom:10px;
+}
